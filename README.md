@@ -18,7 +18,7 @@ Load the model weights from HuggingFace:
 import transformers
 
 SCAR = transformers.AutoModelForCausalLM.from_pretrained(
-    "RuHae/SCAR",
+    "AIML-TUDA/SCAR",
     trust_remote_code=True,
 )
 ```
@@ -52,8 +52,8 @@ The example above will decrease toxicity. To increase the toxicity one would set
 # Reproduction
 
 The scripts for generating the training data are located in `./create_training_data`.
-The training script is written for a Determined cluster but should be easily adaptable for other training frameworks. The corresponding script is located [here](./llama3_SAE/determined_trails.py).
-Some the evaluation functions are located [here](./evaluations).
+The training script is written for a Determined cluster but should be easily adaptable for other training frameworks. The corresponding script is located here `./llama3_SAE/determined_trails.py`.
+Some the evaluation functions are located in `./evaluations`.
 
 # Citation
 ```bibtex
