@@ -1,0 +1,1 @@
+{"batch_size": 2048, "ds_path": "", "factor": 6, "k": 2048, "lr": 1e-05, "max_epochs": 100, "n_inputs": 4096, "activation": "topk"}

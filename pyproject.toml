@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "sae-featureextraction"
+version = "0.1.0"
+description = ""
+authors = ["ruben.haerle <ruben.haerle@aleph-alpha-ip.ai>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^2.3.0"
+transformers = {extras = ["sentencepiece"], version = "^4.43"}
+plotly = "^5.22.0"
+datasets = "^2.19.2"
+lightning = "^2.2.5"
+zstandard = "^0.22.0"
+jupyter = "^1.0.0"
+blobfile = "2.0.2"
+transformer-lens = "1.9.1"
+scikit-learn = "^1.5.0"
+matplotlib = "^3.9.0"
+graphviz = "^0.20.3"
+google-api-python-client = "^2.135.0"
+langdetect = "^1.0.9"
+immutabledict = "^4.2.0"
+huggingface-hub = {extras = ["cli"], version = "^0.23.4"}
+# lm-eval = {path = "/nfs/scratch_2/ruben/lm-evaluation-harness", develop = true, extras=["ifeval", "math"]}
+kaleido = "0.1.0"
+# activation-additions = {path = "/nfs/scratch_2/ruben/activation_additions_hf-main"}
+determined = "0.26.4"
+tensorboard = "^2.17.0"
+apex = "^0.9.10.dev0"
+statsmodels = "^0.14.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[virtualenvs]
+in-project = true
+create = true
+path = "./.venv"
