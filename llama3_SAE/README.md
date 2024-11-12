@@ -12,14 +12,6 @@ Official weights for the Paper [**Scar: Sparse Conditioned Autoencoders for Conc
 
 The code is located in this [Repository](https://github.com/ml-research/SCAR).
 
-# Requirements
-
-Set up the environment with [poetry](https://python-poetry.org/):
-
-```
-poetry install
-```
-
 # Usage
 
 Load the model weights from HuggingFace:
@@ -59,6 +51,12 @@ output = SCAR.generate(
 The example above will decrease toxicity. To increase the toxicity one would set `SCAR.hook.mod_scaling = 100.0`. To modify nothing simply set `SCAR.hook.mod_features = None`.
 
 # Reproduction
+
+For reproduction set up the environment with [poetry](https://python-poetry.org/):
+
+```
+poetry install
+```
 
 The scripts for generating the training data are located in `./create_training_data`.
 The training script is written for a Determined cluster but should be easily adaptable for other training frameworks. The corresponding script is located here `./llama3_SAE/determined_trails.py`.
