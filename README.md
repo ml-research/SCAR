@@ -1,6 +1,6 @@
 # SCAR
 
-Official Implementation of the Paper **Scar: Sparse Conditioned Autoencoders for Concept Detection and Steering in LLMs**.
+Official Implementation of the Paper [**Scar: Sparse Conditioned Autoencoders for Concept Detection and Steering in LLMs**](https://arxiv.org/abs/2411.07122).
 
 
 # Requirements
@@ -57,10 +57,11 @@ Some the evaluation functions are located in `./evaluations`.
 
 # Citation
 ```bibtex
-@article{haerle2024SCAR
-    title={},
-    author={},
+@misc{haerle2024SCAR
+    title={SCAR: Sparse Conditioned Autoencoders for Concept Detection and Steering in LLMs},
+    author={Ruben Härle, Felix Friedrich, Manuel Brack, Björn Deiseroth, Patrick Schramowski, Kristian Kersting},
     year={2024},
-    journal={}
+    eprint={2411.07122},
+    archivePrefix={arXiv},
 }
 ```
