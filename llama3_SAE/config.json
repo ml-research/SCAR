@@ -1,5 +1,5 @@
 {
-  "_name_or_path": "./llama3_SAE",
+  "_name_or_path": "AIML-TUDA/SCAR",
   "activation": "topk",
   "activation_k": 128,
   "architectures": [
@@ -8,7 +8,7 @@
   "attention_bias": false,
   "attention_dropout": 0.0,
   "auto_map": {
-    "AutoConfig": "configuration_llama3_SAE.LLama3_SAE_Config",
+    "AutoConfig": "AIML-TUDA/SCAR--configuration_llama3_SAE.LLama3_SAE_Config",
     "AutoModelForCausalLM": "modeling_llama3_SAE.LLama3_SAE"
   },
   "base_model_name": "meta-llama/Meta-Llama-3-8B",

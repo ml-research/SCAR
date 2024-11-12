@@ -1,7 +1,16 @@
+---
+license: cc-by-nc-sa-4.0
+datasets:
+- allenai/real-toxicity-prompts
+base_model:
+- meta-llama/Meta-Llama-3-8B
+---
+
 # SCAR
 
-Official Implementation of the Paper [**Scar: Sparse Conditioned Autoencoders for Concept Detection and Steering in LLMs**](https://arxiv.org/abs/2411.07122).
+Official weights for the Paper [**Scar: Sparse Conditioned Autoencoders for Concept Detection and Steering in LLMs**](https://arxiv.org/abs/2411.07122).
 
+The code is located in this [Repository](https://github.com/ml-research/SCAR).
 
 # Requirements
 
